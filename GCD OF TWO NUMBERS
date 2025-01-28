@@ -1,0 +1,38 @@
+10. Find the GCD of Two Numbers
+
+Algorithm:
+
+1. Start.
+
+
+2. Input a, b.
+
+
+3. While b ≠ 0:
+
+temp = b.
+
+b = a mod b.
+
+a = temp.
+
+
+
+4. Output a (GCD).
+
+
+5. End.
+
+
+
+Pseudocode:
+
+Start
+Input a, b
+While b ≠ 0 do
+    temp ← b
+    b ← a mod b
+    a ← temp
+End While
+Output a
+End
