@@ -1,0 +1,45 @@
+7. Number Guessing Game
+
+Algorithm:
+
+1. Start.
+
+
+2. Generate random number x between 1 and 100.
+
+
+3. Input guess.
+
+
+4. While guess ≠ x:
+
+If guess < x, output "Higher".
+
+Else, output "Lower".
+
+Input guess.
+
+
+
+5. Output "Correct!".
+
+
+6. End.
+
+
+
+Pseudocode:
+
+Start
+Generate random x between 1 and 100
+Input guess
+While guess ≠ x do
+    If guess < x then
+        Output "Higher"
+    Else
+        Output "Lower"
+    End If
+    Input guess
+End While
+Output "Correct!"
+End
