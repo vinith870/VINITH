@@ -1,0 +1,40 @@
+2. Factorial Using Recursion
+
+Algorithm:
+
+1. Start.
+
+
+2. Define factorial(num):
+
+If num = 0 or num = 1, return 1.
+
+Else, return num * factorial(num - 1).
+
+
+
+3. Input n.
+
+
+4. Call factorial(n) and output the result.
+
+
+5. End.
+
+
+
+Pseudocode:
+
+Function factorial(num)
+    If num = 0 or num = 1 then
+        Return 1
+    Else
+        Return num * factorial(num - 1)
+    End If
+End Function
+
+Start
+Input n
+result ← factorial(n)
+Output result
+End
