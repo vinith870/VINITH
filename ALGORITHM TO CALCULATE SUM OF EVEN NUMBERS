@@ -1,0 +1,38 @@
+1. Algorithm to Calculate the Sum of Even Numbers
+
+Algorithm:
+
+1. Start.
+
+
+2. Input n.
+
+
+3. Initialize sum = 0.
+
+
+4. For i from 1 to n:
+
+If i is even, add i to sum.
+
+
+
+5. Output sum.
+
+
+6. End.
+
+
+
+Pseudocode:
+
+Start
+Input n
+sum ← 0
+For i ← 1 to n do
+    If i mod 2 = 0 then
+        sum ← sum + i
+    End If
+End For
+Output sum
+End
