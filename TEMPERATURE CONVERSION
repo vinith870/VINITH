@@ -1,0 +1,27 @@
+8. Temperature Conversion
+
+Algorithm:
+
+1. Start.
+
+
+2. Input C.
+
+
+3. Calculate F = (C × 9/5) + 32.
+
+
+4. Output F.
+
+
+5. End.
+
+
+
+Pseudocode:
+
+Start
+Input C
+F ← (C × 9/5) + 32
+Output F
+End
