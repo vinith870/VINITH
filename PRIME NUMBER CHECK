@@ -1,0 +1,42 @@
+3. Prime Number Check
+
+Algorithm:
+
+1. Start.
+
+
+2. Input n.
+
+
+3. If n <= 1, output "Not Prime".
+
+
+4. For i from 2 to sqrt(n):
+
+If n mod i = 0, output "Not Prime" and stop.
+
+
+
+5. Output "Prime".
+
+
+6. End.
+
+
+
+Pseudocode:
+
+Start
+Input n
+If n <= 1 then
+    Output "Not Prime"
+    End
+End If
+For i ← 2 to sqrt(n) do
+    If n mod i = 0 then
+        Output "Not Prime"
+        End
+    End If
+End For
+Output "Prime"
+End
