@@ -1,0 +1,43 @@
+6. Generate Fibonacci Series
+
+Algorithm:
+
+1. Start.
+
+
+2. Input n.
+
+
+3. Initialize a = 0, b = 1.
+
+
+4. Output a and b.
+
+
+5. Loop for n-2 iterations:
+
+Calculate c = a + b.
+
+Output c.
+
+Update a = b, b = c.
+
+
+
+6. End.
+
+
+
+Pseudocode:
+
+Start
+Input n
+a ← 0, b ← 1
+Output a, b
+For i ← 3 to n do
+    c ← a + b
+    Output c
+    a ← b
+    b ← c
+End For
+End
