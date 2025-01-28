@@ -1,0 +1,39 @@
+4. Finding the Largest Number in an Array
+
+Algorithm:
+
+1. Start.
+
+
+2. Input array arr and size n.
+
+
+3. Initialize largest = arr[0].
+
+
+4. For each element in arr:
+
+If the element > largest, update largest.
+
+
+
+5. Output largest.
+
+
+6. End.
+
+
+
+Pseudocode:
+
+Start
+Input n
+Input array arr of size n
+largest ← arr[0]
+For i ← 1 to n-1 do
+    If arr[i] > largest then
+        largest ← arr[i]
+    End If
+End For
+Output largest
+End
